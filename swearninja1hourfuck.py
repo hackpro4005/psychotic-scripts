@@ -1,4 +1,5 @@
-import webbrowser
+import urllib
 
-call webbrowser
-   open https://www.youtube.com/watch?v=8d7mdFJfNHs
+url = "https://www.youtube.com/watch?v=8d7mdFJfNHs"
+
+response = urllib.request.urlopen(https://www.youtube.com/watch?v=8d7mdFJfNHs)
